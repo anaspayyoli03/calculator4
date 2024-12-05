@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.js">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="container">
+
+   
+        <h1>Calculate your BNI</h1>
+        <h4 class="name">Body mass index ,or BMI is used to determine    whether you are  in a healthy weight 
+            rannge for you height</h4>
+          <img width="150px" src="./height-and-weight.jpg" alt="">
+        
+        <div class="input-container">
+            <label for="weight">height:</label>
+          <input type="number" id="height" placeholder=" What is your height (m)">
+        </div>
+        <div class="input-container">
+          <label for="weight">Weight:</label>
+          <input type="number" id="weight" placeholder=" what is your Weight  (kg)">
+        </div>
+        <button onclick="calculateBMI()">Calculate</button>
+        <div id="result"></div>
+</body>
+<script src="./main.js"></script>
+</html>
